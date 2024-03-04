@@ -1,3 +1,4 @@
+import 'package:applink_demo_admin_panel/style_form/colors.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
@@ -20,18 +21,15 @@ class ImageCategoryCard extends StatelessWidget {
         onTap: onTap,
         // borderRadius: cardBorderRadius,
         child: Container(
-          height: 150,
-          width: 100,
+          height: 250,
+          width: 200,
           // padding: const EdgeInsets.all(8),
           decoration: BoxDecoration(
-            color: Colors.white,
+            color: ColorConstants.categoryCardColor,
             borderRadius: cardBorderRadius,
           ),
           child: (imageUrl?.isEmpty ?? true)
-              ? Image.asset(
-                  blankImage,
-                  fit: BoxFit.cover,
-                )
+              ? const SizedBox()
               : CachedNetworkImage(
                   imageUrl: imageUrl!,
                   fit: BoxFit.cover,
