@@ -14,7 +14,8 @@ class ColorConstants {
   static final lightThemeCategoryCardColor = Colors.grey.shade300;
 
   //dark theme colors
-  static const scaffoldDarkBgColor = Colors.black;
+  // static const scaffoldDarkBgColor = Colors.black;
+  static const scaffoldDarkBgColor = Color(0xFF0A0A0A);
   static const darkThemeTextColor = Colors.white;
   static final darkThemeIconColor = Colors.green.shade50;
   static final darkThemeCategoryCardColor = Colors.grey.shade200;

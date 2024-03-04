@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "693200674577",
+    "project_id": "applink-demo-project",
+    "storage_bucket": "applink-demo-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693200674577:android:6910ade8a92839b838f6b0",
+        "android_client_info": {
+          "package_name": "com.example.applink_demo_admin_panel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB56w1ZXkWyYWaNDCgk0c7sS1JXjEIw92I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
