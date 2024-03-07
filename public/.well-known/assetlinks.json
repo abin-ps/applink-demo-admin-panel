@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android-applink-demo",
+            "package_name": "com.example.applink_demo",
+            "sha256_cert_fingerprints": [
+                "A7:C9:F9:33:29:4D:C8:49:3D:6A:61:99:58:70:98:1E:96:C9:10:98:F7:00:6E:DA:70:31:1F:AC:27:6B:73:2Cflu"
+            ]
+        }
+    }
+]
